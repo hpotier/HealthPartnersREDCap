@@ -6,7 +6,7 @@
         id        = "com.phonegap.hello-world"
         version   = "1.0.0">
 
-    <name>REDCap apps</name>
+    <name>REDCap mobile du BESPIM</name>
 
     <description>
         Application eCRF mobile du BESPIM
