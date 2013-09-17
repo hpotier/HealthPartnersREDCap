@@ -6,13 +6,13 @@
         id        = "com.phonegap.hello-world"
         version   = "1.0.0">
 
-    <name>REDCap mobile du BESPIM</name>
+    <name>REDCap apps</name>
 
     <description>
         Application eCRF mobile du BESPIM
     </description>
 
-    <author href="www.bespim.fr" email="rci@chu-nimes.fr">
+    <author href=" " email="rci@chu-nimes.fr">
         Application eCRF mobile du BESPIM
     </author>
 
@@ -89,7 +89,7 @@
         Otherwise, you can specify specific domains:
     -->
     <access origin="http://127.0.0.1*"/> <!-- allow local pages -->
-    <access origin="http://rc.bespim.fr*" subdomains="true"/> <!-- allow local pages -->
+    <access origin="http://www.bespim.fr" subdomains="true"/> <!-- allow local pages -->
     <!--
         <access origin="http://phonegap.com" />                    - allow any secure requests to http://phonegap.com/
         <access origin="http://phonegap.com" subdomains="true" />  - same as above, but including subdomains, such as http://build.phonegap.com/
