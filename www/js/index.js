@@ -47,5 +47,11 @@ var app = {
         //Redirect app web page to your REDCap URL
         window.location.href='http://rc.bespim.fr';
         console.log('Received Event: ' + id);
+		
+		if(navigator.app){
+			navigator.app.exitApp();
+		}else if(navigator.device){
+			navigator.device.exitApp();
+		}
     }
 };
