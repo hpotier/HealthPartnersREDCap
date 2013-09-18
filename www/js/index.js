@@ -47,11 +47,12 @@ var app = {
         //Redirect app web page to your REDCap URL
         window.location.href='http://rc.bespim.fr';
         console.log('Received Event: ' + id);
-		
+		/* Ne marche qu'a moitié car ferme bien l'application, mais également le navigateur
+		Le but étant de fermer le lanceur mais pas le navigateur
 		if(navigator.app){
 			navigator.app.exitApp();
 		}else if(navigator.device){
 			navigator.device.exitApp();
-		}
+		}*/
     }
 };
